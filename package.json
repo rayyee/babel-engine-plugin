@@ -1,19 +1,19 @@
 {
-  "name": "babel-engine-plugin",
-  "version": "0.3.0",
+  "name": "@rayyee/babel-engine-plugin",
+  "version": "0.3.1",
   "description": "Webpack plugin that transpiles dependencies targeting Node.js versions newer than Node.js 0.10",
   "license": "MIT",
-  "repository": "SamVerschueren/babel-engine-plugin",
+  "repository": "rayyee/babel-engine-plugin",
   "author": {
-    "name": "Sam Verschueren",
-    "email": "sam.verschueren@gmail.com",
-    "url": "github.com/SamVerschueren"
+    "name": "Ray Yee",
+    "email": "foreveryulei@gmail.com",
+    "url": "github.com/rayyee"
   },
   "engines": {
     "node": ">=6"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava test/*.js"
   },
   "files": [
     "index.js",

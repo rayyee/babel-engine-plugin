@@ -1,4 +1,4 @@
-# babel-engine-plugin [![Build Status](https://travis-ci.org/SamVerschueren/babel-engine-plugin.svg?branch=master)](https://travis-ci.org/SamVerschueren/babel-engine-plugin)
+# babel-engine-plugin [![Build Status](https://travis-ci.org/rayyee/babel-engine-plugin.svg?branch=master)](https://travis-ci.org/rayyee/babel-engine-plugin)
 
 > Webpack plugin that transpiles dependencies targeting Node.js versions newer than Node.js 0.10
 
@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save-dev babel-engine-plugin
+$ npm install --save-dev @rayyee/babel-engine-plugin
 ```
 
 
@@ -15,7 +15,7 @@ $ npm install --save-dev babel-engine-plugin
 Within your webpack configuration object, you'll need to add the `babel-engine-plugin` to the list of `plugins`.
 
 ```js
-const BabelEnginePlugin = require('babel-engine-plugin');
+const BabelEnginePlugin = require('@rayyee/babel-engine-plugin');
 
 module.exports = {
     entry: './app.js',
@@ -67,4 +67,4 @@ By disabling verbose logging, the plugin will only print the warning per package
 
 ## License
 
-MIT © [Sam Verschueren](https://github.com/SamVerschueren)
+MIT © [Ray Yee 2019](https://github.com/rayyee)
