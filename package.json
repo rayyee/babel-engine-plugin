@@ -9,9 +9,6 @@
     "email": "foreveryulei@gmail.com",
     "url": "github.com/rayyee"
   },
-  "engines": {
-    "node": ">=8"
-  },
   "scripts": {
     "test": "xo && ava test/*.js"
   },
